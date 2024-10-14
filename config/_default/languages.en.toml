@@ -1,0 +1,13 @@
+# config/_default/languages.en.toml
+
+title = "Mehmet Alici"
+
+[params.author]
+name = "Mehmet Alici"
+image = "img/author_small.jpg"
+headline = "Software Engineer who likes to work on AI and Embedded Systems"
+bio = "Software Engineer who likes to work on AI and Embedded Systems"
+links = [
+  { github = "https://github.com/mehmetalici" },
+  { linkedin = "https://www.linkedin.com/in/mehmet-alici/"}
+]
