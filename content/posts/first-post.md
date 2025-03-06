@@ -3,27 +3,29 @@ title: "How Writing Helps Me to Become Better at Work"
 date: 2025-01-23
 draft: true
 description: ""
-summary: "It is not LLMs that makes me a 10x developer: it is writing things down first."
+summary: "It is not AI Chatbots that speed things up: it is writing things down first."
 slug: "advanced-customisation"
 tags: ["advanced", "css", "docs"]
 ---
+# How Writing Helps me to Become Better at Work
 
-## Introduction
-- As reader good: Critical comments in code, visual design sketches, good READMEs. In fact, they are as writer more helpful.   
-- Bird-eye view: What to achieve, how etc.
-- Alternative: Third-party developer: Seeing things from other person's perspective. 
-- What is a good software: How much time it takes for a newcomer to understand your code. This perspective is lost when coding. But writing is reasoning. Writing is cheaper than code. Finding good words for your stream of thought.   
-- When writing you want to be correct. Substantiate your stream of thought -> Better code
+ 
 
-## READMEs 
-- Improve reproduciblity
-- Summary section reminds me which problem it solves. Finding it helps you to draw boundaries. You develop what you promise. Avoid overengineering. 
-- Gauge how easy it is for the newcomer
-- How are the prerequisites
-- Try readme out on a fresh env and see if it works
+We all love being welcomed by well-written READMEs when we first navigate to the repository that outlines the first steps with it and how to use it. If we are tasked with, in fact, contributing to it, it feels great to find some architectural documents, preferably with design diagrams. During development, bumping into comments that explains why a certain design decision is taken helps to reduce frustrations and understand the developer's perspective. 
 
+In fact, these textwork accompanying code is at least equally helpful for the original authors themselves as repositories users and future contributors. Here is why.
 
-## Issues
+To understand why, I would like you to first think on the question, "What makes up a good software?". There could be different answers to this question, but in my opinion, a good metric to evaluate it is how easy it is for others to contribute to your codebase. If fixing bugs or implementing new features takes long time or is accompanied by many follow-up questions, then it is likely that your repository has room for improvement. 
 
-## Conclusion
-- Maybe go to first principles: Coding is only 20%. Designing is writing and management
+As original authors, we, therefore, need to put ourselves to readers' perspective when we write code. Here is what writing plays a key role: Writing puts ourselves to the reader's shoes and leads original authors to reason about design decisions meticulously. This is because when we write, we would like to be objective. We would like to spend time and find good words for our stream of thought. Code produced by stream of thought is transient and haste. However, code out of written document tends to be well-thought out. 
+
+Let's now direct our focus into real-word examples and concretialize our thoughts. An immediate example could be crafting READMEs. An ideal README should contain sections such as summary, getting started involving how to install the repository finalized by a quick demo, known issues and contributing guides. For example, this summary section immediately helps you to summarize the problem it solves or its highlight. If you can write it well, it means you know what you are trying to solve or what it makes better than the competition. If not, it signs immediately that there is something wrong. Next, providing instructions on how to install gives an idea to you how easy it is for users to bring the repository up and running. Since you want to be correct, you might want to try those instructions yourself on a fresh machine (e.g. Docker) and immediately realize how easy it is to ramp up the repository. Such things give immediate and invaluable feedback in which we transform ourselves to our counterparts: The users. 
+
+Next example could be issue tracking. It is well-known and true that they show our collaborators and users on what we are working on and how much progress we made. So an initial benefit of writing issues could be for others. Although this is perfectly valid, here is another take on the topic: It is at least equally useful to the original authors because keeping issues in writing inherently forces us to craft better issues. Writing issues means justifying your work packages to your imaginary co-worker. It encourages you to provide rationales, assess time effort and draw boundaries of what the work package at hand is supposed to do - no more and no less. All those parts add together you to draft well thought-out work packages, which eventually helps immensely you to deliver your feature on time. 
+
+It goes without saying that we love keeping diaries. They keep track of our daily events from first-perspective, record problems we feel important and how we solve them. What is even more beautiful is to open and read them months or years after. How does a similar idea sound like for software development? Of course, I am not encouraging you to maintain a separate document, but hint at integrating this to your issues in comments section. So how is a diary of an issue look like? Well, each issue addresses a problem in software but in turn they are also consisted of atomic milestones, infinitesimal findings and learnings. I find recoding those small moments under issues in comments section, just like we do in our diaries, is a very good idea. Writing again puts us to an objective 3rd-party state there and understand this small problem better and design a better thought-out solution. Moreover, They help us to quantify our small achievements better, which is especially important not to easily 'get lost' on solution procedure. And you know what, after delivering the feature and closing the issue, you will have a track record of the evolution of issue, design decisions and references. This comes with a beatiful side effect: A perfect documentation for your later self and your colleagues!
+
+Most recently, AI chatbots showed their porminence in immensely speeding development up by letting you offload low-level design decisions to it and freeing yourself for high-level design tasks. However, I also read here and there that many are actually suffer from AI chatbot usage for real-world tasks and it starts to spit out bad code. I find such claims hard to justify particularly without seeing actual prompts. I feel this way because it is paramount to feed those chatbots good prompts, which we now call "prompt engineering". This means that -aside from the fact that you need to know what you are doing-, you need to convey what you want well. So the question becomes How then provide good prompts? Well, here is the takeaway: Good prompt engineering requires good writing! It is only by good writing, you could reap true benefits of AI chatbots.
+
+Our thoughts are like a river: A continous stream of thought. They are transient, susceptible to distortions and without boundaries. On the other hand, writing is quite different: It requires more time, reasoning, objectivity and substantiation. Therefore, let's integrate writing more on our day-to-day development tasks to produce better software!   
+
