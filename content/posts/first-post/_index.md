@@ -1,13 +1,12 @@
 ---
 title: "How Writing Helps Me to Become Better at Work"
 date: 2025-01-23
-draft: true
+draft: false
 description: ""
-summary: "It is not AI Chatbots that speed things up: it is writing things down first."
+summary: "It is not AI that speed things up: it is writing things down first."
 slug: "advanced-customisation"
 tags: ["advanced", "css", "docs"]
 ---
-# How Writing Helps Me to Become Better at Work
 
 Let's admit it: We always look for "Quick Start" section in every README. *Comprehensive* READMEs on the other hand? Well, no one reads those. 
 
@@ -40,10 +39,6 @@ Let's go one step further in issues: The issue comments section, which is mainly
 Well, to me, it sounds great because it feels like keeping a diary -but in a professional setting. Just like personal diaries keep track of our daily events from the first-perspective, record problems we feel important and our coping strategies with them, keeping track of our work day in comments section should sound like a great idea. 
 
 These comments help us to quantify our small achievements better, which is especially important not to easily 'get lost' on solution procedure. And you know what, after delivering the feature and closing the issue, you will have a track record of what-I-call issue evolution: Atomic problems, solution candidates and interesting findings. This comes with a beatiful side effect: A perfect documentation for your later self and others!
-
-Before finishing, I would also like to touch shortly on nowadays' hype: AI chatbots. Well, I feel that they are, in fact, great tools particularly because they free my time to focus on high-level tasks by offloading my cognitive load for the low-level decisions. That said, I also read here and there that many actually suffer from AI chatbot usage for real-world tasks that it can no longer produce good code as the project's complexity grows. 
-
-I find such claims hard to justify -especially without seeing the actual prompts. I feel this way because it is paramount to feed those chatbots good prompts, which we now call "prompt engineering". This is exactly to say that you need to convey them well what you want. So, the question becomes "how then provide good prompts?" Well, here is the takeaway: Good prompt engineering requires good writing! Good writing is also here a prerequisite to reap the full benefits of these chatbots.   
 
 So, our thoughts are like a river: A continous stream of thought. They are transient, susceptible to distortions and without boundaries. On the other hand, writing is quite different: It requires more time, reasoning, objectivity and substantiation. Therefore, let's integrate writing more on our day-to-day development tasks, which will -believe me- lead to better software!   
 
